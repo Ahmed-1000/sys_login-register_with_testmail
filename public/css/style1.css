@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background:  #001b2e;
+}
+header{
+    background: #023047;
+    width: 100%;
+    height: 100px;
+}
+header img{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    width: 46px;
+    height: 49px;
+}
+header ul{
+   margin-left: 950px;
+}
+header ul li{
+    
+    position: relative;
+    bottom: 20px;
+    display: inline;
+    list-style-type: none;
+    padding: 27px;
+    line-height: -30px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #219ebc;
+    font-family: 'Anton', sans-serif;
+    
+}
+.warpp{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: url(../image/avatar.jpg);
+    background-size: 100% 100%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.woo{
+    height: 33px;
+    width: 38px;
+    position: absolute;
+   
+    top: -30px;
+    left: 85.3%;
+    bottom: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: url(../image/avatar.jpg);
+    background-size: 100% 100%;
+    margin: 60px auto;
+    overflow: hidden; 
+}
+.myfile{
+   
+    position: absolute;
+    bottom: 0;
+    outline:none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 90px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+   
+}
+.myfile:hover{
+    opacity: 1;
+}
+.myfile::-webkit-file-upload-button{
+        visibility: hidden;
+    }    
+.myfile::before{
+    content: 'upload';
+    font-family: fontAwesome;
+    font-size: 50px;
+    color: #fff;
+    -webkit-user-select:none;
+}
+.items{
+    
+    margin: 60px 680px;
+    
+}
+.items label{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.items p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #edf6f9
+}
+.text-post{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+#log{
+  position: absolute;
+    top: 27px;
+    left: 1400px;
+  background: none;
+  border: none;
+  background:  #023047;
+  border: 2px solid #023047;
+    padding: 2px;
+    border-radius: 10px;
+    
+
+}
+#log a{
+    text-decoration: none;
+    color:  #219ebc;
+    font-size: 22px;
+    font-family: 'Anton', sans-serif;
+  
+}
+#delet{
+    position: absolute;
+    top: 870px;
+    left: 700px;
+  background: none;
+  border: none;
+  background:  blue;
+  border: 2px solid blue;
+    padding: 2px;
+    border-radius: 5px; 
+}
+#delet a{
+     text-decoration: none;
+    color:  whitesmoke;
+    font-size: 22px;
+    
+    
+}
+input[type="text"]{
+    margin-top: 7px;
+    border: none;
+    width: 250px;
+    font-size: 22px;
+    
+}
+input[type="email"]{
+    margin-top: 7px;
+    border: none;
+    width: 250px;
+    font-size: 22px;
+    
+}
+
+@media(max-width:600px){
+    .items{
+    
+       margin: 60px 100px;
+    
+    }
+}

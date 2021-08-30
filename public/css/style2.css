@@ -1,0 +1,111 @@
+*,body,html{
+    margin: 0;
+    padding: 0;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #001b2e;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 430px;
+    height: 450px;
+    background: #adb6c4;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 8px #adb6c4,5px 5px 8px #adb6c4;
+    border: 5px solid  #adb6c4;
+    border-radius: 25px;
+    
+}
+form h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: gray;
+}
+form .text-box{
+    padding: 4px;
+    margin: 30px 100px;
+     border-bottom: 3px solid #0d3b66;
+     width: 240px;
+}
+form .text-box input[type="text"]{
+    background: none;
+    border: none;
+    outline: none;
+   
+   
+    font-size: 20px;
+}
+form .text-box input[type="email"]{
+    background: none;
+    border: none;
+    outline: none;
+   
+   
+    font-size: 20px;
+}
+form .text-box input[type="password"]{
+    background: none;
+    border: none;
+    outline: none;
+   
+   
+    font-size: 20px;
+}
+form .text-box i{
+    color: gray;
+}
+input[type="submit"]{
+     margin: 30px 100px;
+    background: none;
+    border: none;
+    padding: 4px;
+    font-size: 22px;
+    border: 2px solid #2d00f7;
+    background: #2d00f7;
+    width: 240px;
+    cursor: pointer;
+}
+svg{
+    width: 120px;
+    height: 90px;
+    color:  gray;
+    position: absolute;
+    top: 13%;
+    left: 710px;
+    z-index: 1;
+    
+}
+.message {
+    color: black;
+    font-size: 18px;
+    padding-left: 100px;
+    
+}
+.message span{
+    color: blue;
+    text-decoration: underline;
+}
+#toggle{
+    position: absolute;
+    top: 188px;
+    right: 77px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/eye-solid.svg');
+    background-size: cover;
+    cursor: pointer;
+    
+}
+#toggle.hide{
+     background: url('../images/eye-slash-solid.svg');
+    background-size: cover;
+}
+.text-dander{
+     padding: 0 0 50px auto;
+    color: red;
+}
